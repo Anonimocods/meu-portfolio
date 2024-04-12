@@ -154,3 +154,49 @@ section.especialidades .flex{
     font-size: 28px;
     margin: 15px 0;
 }
+
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre span{
+    color: #00ff08;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00ff08;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .2s;
+    margin: 20px 7px;
+}
+
+.sobre .txt-sobre .btn-social button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #00ff08;
+}
