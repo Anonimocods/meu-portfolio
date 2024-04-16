@@ -302,3 +302,43 @@ form .btn-enviar input:hover{
     transform: scale(1.05);
     box-shadow: 0 0 8px #00ff08;
 }
+
+@media screen and(max-width: 1020px){
+
+    .flex{
+        flex-direction: column;
+    }
+
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    h1.topo-do-site{
+        color: #fff;
+        font-size: 42px;
+        line-height: 40px;
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    
+}
